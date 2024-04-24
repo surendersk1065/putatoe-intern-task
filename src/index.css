@@ -1,0 +1,137 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+
+}
+body {
+  background-color: #f5f5f5;
+}
+
+
+
+.header{
+  background-color:#00838f ;
+}
+.location{
+  background-color: #00838f;
+  border: 1px solid white;
+}
+.location::placeholder{
+  color: white;
+}
+.search .form-control {
+  padding-left: 2.375rem;
+  width: 250px;
+}
+.sticky-top{
+  border: none;
+}
+
+.search .icon {
+  position: absolute;
+  z-index: 2;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+.slider img{
+  max-width:360px;
+  height: 150px;
+  padding: 20px 10px;
+  margin-bottom:px;
+}
+.nav img{
+  width: 30px;
+  height: 30px;
+}
+.imagebox p{
+  margin: 0px;
+}
+
+.size{
+  border:1px solid black;
+
+}
+.imagecontainer{
+  position: relative;
+}
+.share{
+  position: absolute;
+  font-size: 30px;
+  right: 10px;
+}
+.offer{
+  position: absolute;
+  left: -10px;
+  top:10px;
+}
+.add{
+  font-size: 50px;
+  position: absolute;
+  bottom: 10px;
+  right: 6px;
+}
+.bev{
+  padding: 4px;
+  border-bottom: 1px solid black;
+}
+.star{
+  margin-bottom: 3px;
+}
+.service img{
+  width: 150px;
+  height: 100px;
+}
+.col-6{
+  position: relative;
+}
+.service p {
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  left:40px;
+  font-weight: bolder;
+}
+.service span{
+  position: absolute;
+  right: 10px;
+}
+.fixedimg img{
+  width: 50px;
+  background-color: #00838f;
+  border-radius: 100%;
+  padding: 10px;
+}
+.fixedimg{
+ position:fixed;
+ bottom: 100px;
+ right:16px;
+}
+.logo img{
+  width:50px;
+  margin-top: 4px;
+  background-color: #00838f;
+  padding: 4px;
+}
+.position{
+  position: relative;
+}
+.position span{
+  position: absolute;
+  top:-4px;
+  left:20px;
+
+}
+.position2{
+  position: relative;
+}
+.position2 span{
+  position: absolute;
+  top:-4px;
+  left:10px;
+}
