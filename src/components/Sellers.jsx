@@ -39,7 +39,7 @@ function Sellers() {
         {
             id: 2,
             shop: 'Krishna Complex',
-            name: '^ civil lines',
+            name: '6 civil lines',
             type: 'i provide all service',
             rate: '5.0',
             img: 'k.png'
@@ -121,14 +121,14 @@ function Sellers() {
                             bevarges.map((val) => (
                                 <div className=' me-3 mx-3 px-3 pb-2 rounded imagebox card'key={val.id}>
                                     <div className='imagecontainer'>
-                                        <img src={val.img} style={{ width: '200px', height: '200px' }} className='' />
+                                        <img src={val.img} style={{ width: '200px', height: '200px' }} className='mb-3' />
                                         {/* <span className='share'><CiShare2 /></span> */}
                                         <span className='d-inline-block text-white px-4 rounded offer' style={{ backgroundColor: '#00838f' }}>{val.rate}<FaStar className='ms-2 star text-white' /></span>
                                         {/* <span className='add'><MdAddBox /></span> */}
                                     </div>
-                                    <p>{val.shop}</p>
-                                    <p className='fw-bolder'>{val.name}</p>
-                                    <div className='d-flex justify-content-between align-items-center'>
+                                    <p className='mb-1'>{val.shop}</p>
+                                    <p className='fw-bolder mb-2'>{val.name}</p>
+                                    <div className='d-flex justify-content-between align-items-center mb-3'>
                                         <p style={{ width: '200px' }}>{val.type}</p>
                                         <span>
                                             <GrLocation className='fs-4 d-block' />
@@ -160,14 +160,14 @@ function Sellers() {
                             dairy.map((val) => (
                                 <div className=' me-3 mx-3 px-3 pb-2 rounded imagebox'key={val.id}>
                                     <div className='imagecontainer'>
-                                        <img src={val.img} style={{ width: '200px', height: '200px' }} className='' />
+                                        <img src={val.img} style={{ width: '200px', height: '200px' }} className='mb-3' />
                                         {/* <span className='share'><CiShare2 /></span> */}
                                         <span className='d-inline-block text-white px-4 rounded offer' style={{ backgroundColor: '#00838f' }}>{val.rate}<FaStar className='ms-2 star text-white' /></span>
                                         {/* <span className='add'><MdAddBox /></span> */}
                                     </div>
-                                    <p>{val.shop}</p>
-                                    <p className='fw-bolder'>{val.name}</p>
-                                    <div className='d-flex justify-content-between align-items-center'>
+                                    <p className='mb-1'>{val.shop}</p>
+                                    <p className='fw-bolder mb-2'>{val.name}</p>
+                                    <div className='d-flex justify-content-between align-items-center mb-3'>
                                         <p style={{ width: '200px' }}>{val.type}</p>
                                         <span>
                                             <GrLocation className='fs-4 d-block' />
@@ -199,14 +199,14 @@ function Sellers() {
                             fruits.map((val) => (
                                 <div className=' me-3 mx-3 px-3 pb-2 rounded imagebox card'key={val.id}>
                                     <div className='imagecontainer'>
-                                        <img src={val.img} style={{ width: '200px', height: '200px' }} className='' />
+                                        <img src={val.img} style={{ width: '200px', height: '200px' }} className='mb-3' />
                                         {/* <span className='share'><CiShare2 /></span> */}
                                         <span className='d-inline-block text-white px-4 rounded offer' style={{ backgroundColor: '#00838f' }}>{val.rate}<FaStar className='ms-2 star text-white' /></span>
                                         {/* <span className='add'><MdAddBox /></span> */}
                                     </div>
-                                    <p>{val.shop}</p>
-                                    <p className='fw-bolder'>{val.name}</p>
-                                    <div className='d-flex justify-content-between align-items-center'>
+                                    <p className='mb-1'>{val.shop}</p>
+                                    <p className='fw-bolder mb-2'>{val.name}</p>
+                                    <div className='d-flex justify-content-between align-items-center mb-3'>
                                         <p style={{ width: '200px' }}>{val.type}</p>
                                         <span>
                                             <GrLocation className='fs-4 d-block' />
@@ -238,14 +238,14 @@ function Sellers() {
                             grocery.map((val) => (
                                 <div className=' me-3 mx-3 px-3 pb-2 rounded imagebox'key={val.id}>
                                     <div className='imagecontainer'>
-                                        <img src={val.img} style={{ width: '200px', height: '200px' }} className='' />
+                                        <img src={val.img} style={{ width: '200px', height: '200px' }} className='mb-3' />
                                         {/* <span className='share'><CiShare2 /></span> */}
                                         <span className='d-inline-block text-white px-4 rounded offer' style={{ backgroundColor: '#00838f' }}>{val.rate}<FaStar className='ms-2 star text-white' /></span>
                                         {/* <span className='add'><MdAddBox /></span> */}
                                     </div>
-                                    <p>{val.shop}</p>
-                                    <p className='fw-bolder'>{val.name}</p>
-                                    <div className='d-flex justify-content-between align-items-center'>
+                                    <p className='mb-1'>{val.shop}</p>
+                                    <p className='fw-bolder mb-2'>{val.name}</p>
+                                    <div className='d-flex justify-content-between align-items-center mb-3'>
                                         <p style={{ width: '200px' }}>{val.type}</p>
                                         <span>
                                             <GrLocation className='fs-4 d-block' />
@@ -277,14 +277,14 @@ function Sellers() {
                             veg.map((val) => (
                                 <div className=' me-3 mx-3 px-3 pb-2 rounded imagebox card'key={val.id}>
                                     <div className='imagecontainer'>
-                                        <img src={val.img} style={{ width: '200px', height: '200px' }} className='' />
+                                        <img src={val.img} style={{ width: '200px', height: '200px' }} className='mb-3' />
                                         {/* <span className='share'><CiShare2 /></span> */}
                                         <span className='d-inline-block text-white px-4 rounded offer' style={{ backgroundColor: '#00838f' }}>{val.rate}<FaStar className='ms-2 star text-white' /></span>
                                         {/* <span className='add'><MdAddBox /></span> */}
                                     </div>
-                                    <p>{val.shop}</p>
-                                    <p className='fw-bolder'>{val.name}</p>
-                                    <div className='d-flex justify-content-between align-items-center'>
+                                    <p className='mb-1'>{val.shop}</p>
+                                    <p className='fw-bolder mb-2'>{val.name}</p>
+                                    <div className='d-flex justify-content-between align-items-center mb-3'>
                                         <p style={{ width: '200px' }}>{val.type}</p>
                                         <span>
                                             <GrLocation className='fs-4 d-block' />
